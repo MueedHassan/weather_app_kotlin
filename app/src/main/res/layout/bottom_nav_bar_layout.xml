@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/present_weather"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@color/black"
+            android:src="@drawable/baseline_calendar_today_24_white"
+            android:text="@string/back_button_description"
+            android:onClick="onPresentWeatherButtonClick"
+            />
+
+        <ImageButton
+            android:id="@+id/future_7_days_weather"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/black"
+            android:padding="8dp"
+            android:src="@drawable/baseline_calendar_month_24_white"
+            android:text="@string/back_button_description"
+            android:onClick="onPresentFutureSevenDaysClick"
+            />
+
+        <ImageButton
+            android:id="@+id/setting"
+            android:layout_width="101dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/black"
+            android:padding="8dp"
+            android:src="@drawable/baseline_settings_24_white"
+            android:text="@string/back_button_description"
+            android:onClick="onPresentSettingButtonClick"
+            />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</RelativeLayout>

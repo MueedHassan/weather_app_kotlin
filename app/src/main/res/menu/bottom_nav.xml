@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/baseline_calendar_today_24_white"
+    android:title="Current"
+    android:iconTint="@color/black"
+
+    android:color="#000000"
+    />
+<item
+    android:id="@+id/message"
+    android:icon="@drawable/baseline_calendar_month_24_white"
+    android:title="ForeCast" />
+<item
+    android:id="@+id/settings"
+    android:icon="@drawable/baseline_settings_24_white"
+    android:title="Setting" />
+</menu>

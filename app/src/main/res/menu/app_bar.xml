@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- "Mark Favorite", must appear as action button if possible. -->
+        <item
+            android:id="@+id/present_day"
+            android:icon="@drawable/baseline_menu_24_white"
+            android:title="Present"
+            app:showAsAction="always"/>
+
+        <!-- Settings, must always be in the overflow. -->
+        <item android:id="@+id/seven_days"
+            android:title="Prdedicted for 7 days"
+            app:showAsAction="never"/>
+        <item android:id="@+id/action_settings"
+            android:title="setting"
+            app:showAsAction="never"/>
+
+</menu>
